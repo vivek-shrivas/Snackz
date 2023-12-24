@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "667853994877",
+    "project_id": "snacz-79a8f",
+    "storage_bucket": "snacz-79a8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667853994877:android:91903cdda185a800c52a14",
+        "android_client_info": {
+          "package_name": "com.exmple.snacz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZZajfC1TC_TbZdl98s-FKqT2QhJei6hA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

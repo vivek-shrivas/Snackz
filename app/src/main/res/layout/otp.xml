@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:layout_marginTop="200dp"
+        android:id="@+id/textViewMobileNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/black"
+        android:text="Mobile Number"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+
+    <EditText
+        android:id="@+id/editTextMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewMobileNumber"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="Enter mobile number"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/textViewOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextMobileNumber"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="OTP"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextOTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewOTP"
+        android:layout_marginBottom="32dp"
+        android:background="@color/white"
+        android:hint="Enter OTP"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnSubmitOTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextOTP"
+        android:background="@color/white"
+        android:text="Submit"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
